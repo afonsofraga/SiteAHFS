@@ -10,6 +10,7 @@
     --cor02: black;
     --cor03: rgba(155, 185, 85, 0.445);
     --cor04: rgb(41, 39, 39);
+    --cor05: rgb(12, 9, 148);
 
 }
 
@@ -26,7 +27,7 @@ html, body{
 }
 
 header {
-    background-color: var(--cor02);
+    background-color: var(--cor05);
     color: var(--cor01);
     text-align: center;
       
@@ -34,7 +35,7 @@ header {
 header > h1 {
     font-family: var(--fonte-titulo);
     font-variant:small-caps;
-    font-size: 10vw; /* 10% da largura da teka que não é a melhor maneira vamos aprender uma melh0r maneira mais para frente */
+    font-size: 5vw; /* 10% da largura da tela que não é a melhor maneira vamos aprender uma melh0r maneira mais para frente */
     color: var(--cor01);
     padding-top: 50px;
 }
@@ -58,7 +59,7 @@ section {
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--fonte-div);
-    font-size: 2.5vw;
+    font-size: 1.5vw;
 }
 
 section > p {
