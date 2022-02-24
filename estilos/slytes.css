@@ -35,12 +35,18 @@ header {
 header > h1 {
     font-family: var(--fonte-titulo);
     font-variant:small-caps;
-    font-size: 5vw; /* 10% da largura da tela que não é a melhor maneira vamos aprender uma melh0r maneira mais para frente */
+    text-align: left;
+    padding-left: 50px;
+    
+    font-size: 2vw; /* 2% da largura da tela que não é a melhor maneira vamos aprender uma melh0r maneira mais para frente */
+    
     color: var(--cor01);
-    padding-top: 50px;
+    padding-top: 40px;
 }
 header >p {
     padding-bottom: 50px;
+    padding-left: 50px;
+    text-align: left;
 }
 
 header a, footer a {
@@ -56,7 +62,8 @@ header a:hover, footer a:hover{
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 2em;
     font-family: var(--fonte-div);
     font-size: 1.5vw;
@@ -74,7 +81,8 @@ section.normal {
 
 section.imagem {
     background-color: var(--cor04);
-    color: white;
+    color: black;
+    
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px black;
     background-attachment: fixed; /* efeito paralax fixa imagens na rolagem do site */
@@ -94,10 +102,15 @@ section#img01 {
 }
 
 section#img02 {
-    background-image: url('../imagens/background002.jpg');
+    background-image: url('../imagens/projeto-urbanistico.jpg');
     background-position: right center;    
 }
 
+section#img03 {
+    background-image: url('../imagens/cidades.jpg');
+    background-position: right center;  
+    color: white;  
+}
 
 
 footer{
