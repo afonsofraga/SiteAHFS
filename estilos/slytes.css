@@ -16,7 +16,7 @@
 
 * {   
     margin: 0px;
-    padding: 0px;*/
+    padding: 0px;
     font-size: 1em;
 }
 
@@ -88,7 +88,7 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url('../imagens/background001.jpg');
+    background-image: url('../imagens/infraestrutura.jpg');
     background-position: right center;
 
 }
@@ -106,4 +106,4 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
-
+}
