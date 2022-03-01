@@ -126,6 +126,62 @@ nav ul {
     nav ul ul li a:hover {
                         background: #4b545f;
                     }
+                    nav ul li:hover a {
+				color: #fff;
+			}
+		
+	nav ul li a {
+			display: block; padding: 15px 20px;
+			color: #757575; text-decoration: none;
+		}
+
+    nav ul ul {
+            background: #5f6975; border-radius: 0px; padding: 0;
+            position: absolute; top: 100%;
+        }
+    nav ul ul li {
+                float: none; 
+                border-top: 1px solid #6b727c;
+                border-bottom: 1px solid #575f6a; position: relative;
+            }
+    nav ul ul li a {
+                    padding: 15px 20px;
+                    color: #fff;
+                }	
+    nav ul ul li a:hover {
+                        background: #4b545f;
+                    }
+
+
+
+                    nav ul ul ul li:hover a {
+                        color: #fff;
+                    }
+                
+            nav ul ul li a {
+                    display: block; padding: 15px 20px;
+                    color: #757575; text-decoration: none;
+                }
+        
+            nav ul ul ul {
+                    background: #5f6975; border-radius: 0px; padding: 0;
+                    position: absolute; top: 100%;
+                }
+            nav ul ul ul li {
+                        float: none; 
+                        border-top: 1px solid #6b727c;
+                        border-bottom: 1px solid #575f6a; position: relative;
+                    }
+            nav ul ul ul li a {
+                            padding: 15px 20px;
+                            color: #fff;
+                        }	
+            nav ul ul ul li a:hover {
+                                background: #4b545f;
+                            }
+
+
+
 
 section {
     padding-top: 10vh;
@@ -133,7 +189,7 @@ section {
     padding-left: 10px;
     padding-right: 10px;
     line-height: 2em;
-    font-family: var(--fonte-div);
+    font-family: var(--fonte-padrao);
     font-size: 1.5vw;
 }
 
@@ -142,6 +198,9 @@ section > p {
         
 }
 
+section > ul {
+    list-style: none;
+}
 section.normal {
     background-color:var(--cor01);
     color: var(--cor02);
